@@ -1,0 +1,160 @@
+.router-link-exact-active{
+    background: #34373d;
+    color: #bfc1c4;;
+    border-left: 2px solid #9055A2
+}
+.router-link-exact-active i{
+    color: #9055A2;
+}
+
+.page-content {
+    padding: 0px;
+    width: calc(100%);
+}
+
+nav#sidebar {
+    width: 260px;
+}
+
+.table-responsive{
+    overflow-x: hidden;
+}
+
+.block {
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.page-header{
+    padding: 20px 0px;
+}
+
+a[aria-expanded="true"]{
+    border-left: 2px solid #9055A2;
+  }
+
+  a[aria-expanded="true"] i{
+    color: #9055A2;
+  }
+/* -------------------------WIZARD------------------ */
+  .card {
+    /* padding: 10px 0 20px;  */
+    width: 100%;
+  }
+  .wizard-container {
+    padding-top: 0px;
+  }
+
+.wizard-card {
+    min-height: 410px;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.15), 0 0 1px 1px rgba(0, 0, 0, 0.1);
+        padding: 10px 0;
+    padding-bottom: 0px;
+
+  }
+ 
+  .wizard-card .tab-content {
+    min-height: 340px;
+    padding: 20px 10px;
+  }
+  .wizard-card .wizard-footer {
+    padding: 0px 10px;
+    align-items: center;
+    width: 100%;    
+  }
+  .wizard-card .disabled {
+    display: none;
+  }
+  .wizard-card .wizard-header h3 {
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .wizard-card[data-color="violet"] .choice:hover .icon, .wizard-card[data-color="violet"] .choice.active .icon {
+    border-color: #7a4889;
+  }
+  .wizard-card[data-color="violet"] .picture:hover {
+    border-color: #7a4889;
+  }
+  
+  .wizard-card[data-color="violet"] .moving-tab {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    -webkit-font-smoothing: subpixel-antialiased;
+    background-color: #7a4889;
+    top: 73px;
+    left: 0px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .wizard-card .info-text {
+    text-align: center;
+    font-weight: 300;
+    margin: 10px 0 30px;
+  }
+
+  .wizard-card .btn-finish {
+    display: none;
+  }
+  .wizard-card .description {
+    color: #999999;
+    font-size: 14px;
+  }
+
+  /*            Navigation menu                */
+.nav-pills {
+    background-color: #999999;
+    height: 38px;
+    text-align: center;
+    padding: 8px;
+  }
+  .nav-pills > li + li {
+    margin-left: 0;
+    text-align: center;
+  
+  }
+  .nav-pills > li > a {
+    border: 1px solid #2CA8FF;
+    border-radius: 0;
+    color: #2CA8FF;
+    border: 0 !important;
+    text-transform: uppercase;
+    background-color: #999999;
+    text-align: center;
+    color: #FFFFFF !important;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .nav-pills > li > a:focus, .nav-pills > li > a:hover {
+    background-color: #999999;
+  }
+  .nav-pills > li.active > a,
+  .nav-pills > li.active > a:focus,
+  .nav-pills > li.active > a:hover {
+    background-color: inherit;
+  }
+  
+  .text-primary, .text-primary:hover {
+    color: #3472F7;
+  }
+  
+  .text-info, .text-info:hover {
+    color: #2CA8FF;
+  }
+  
+  .text-success, .text-success:hover {
+    color: #05AE0E;
+  }
+  
+  .text-warning, .text-warning:hover {
+    color: #FF9500;
+  }
+  
+  .text-danger, .text-danger:hover {
+    color: #FF3B30;
+  }
